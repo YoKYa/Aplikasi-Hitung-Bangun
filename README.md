@@ -1,30 +1,66 @@
-# Laravel + Livewire Starter Kit
 
-## Introduction
+# 🧮 Aplikasi Hitung Bangun
 
-Our Laravel + [Livewire](https://livewire.laravel.com) starter kit provides a robust, modern starting point for building Laravel applications with a Livewire frontend.
+Aplikasi Hitung Bangun adalah aplikasi sederhana untuk menghitung **luas dan keliling bangun datar** seperti persegi, persegi panjang, lingkaran, dan segitiga. Cocok untuk pembelajaran matematika dasar dan latihan logika pemrograman.
 
-Livewire is a powerful way of building dynamic, reactive, frontend UIs using just PHP. It's a great fit for teams that primarily use Blade templates and are looking for a simpler alternative to JavaScript-driven SPA frameworks like React and Vue.
+---
 
-This Livewire starter kit utilizes Livewire 3, Laravel Volt (optionally), TypeScript, Tailwind, and the [Flux UI](https://fluxui.dev) component library.
+## ✨ Fitur Utama
 
-If you are looking for the alternate configurations of this starter kit, they can be found in the following branches:
+- Menghitung luas dan keliling bangun datar
+- Input struktur yang sederhana dan mudah dipahami
+- Hasil perhitungan ditampilkan secara instan
+- Cocok untuk tugas sekolah / belajar dasar geometri
 
-- [components](https://github.com/laravel/livewire-starter-kit/tree/components) - if Volt is not selected
-- [workos](https://github.com/laravel/livewire-starter-kit/tree/workos) - if WorkOS is selected for authentication
+---
 
-## Official Documentation
+## 🛠 Teknologi yang Digunakan
 
-Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
+- Bahasa pemrograman: *(sesuaikan dengan repo, contoh: C++, Python, atau lainnya)*
+- Tampilan aplikasi: Console / GUI (sesuai implementasi pada repo)
 
-## Contributing
+---
 
-Thank you for considering contributing to our starter kit! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 Cara Menjalankan
 
-## Code of Conduct
+```bash
+# Clone repository
+git clone https://github.com/YoKYa/Aplikasi-Hitung-Bangun.git
+cd Aplikasi-Hitung-Bangun
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Jalankan sesuai bahasa pemrograman
+# contoh (jika menggunakan C++)
+g++ main.cpp -o hitungbangun
+./hitungbangun
+```
 
-## License
+---
 
-The Laravel + Livewire starter kit is open-sourced software licensed under the MIT license.
+## 📂 Struktur Folder (Umum)
+
+```
+Aplikasi-Hitung-Bangun/
+├── src/            # folder berisi file program
+├── README.md       # dokumentasi aplikasi
+└── LICENSE         # lisensi (jika ada)
+```
+
+---
+
+## 🤝 Kontribusi
+
+Silakan lakukan **pull request** jika ingin menambahkan:
+- Perhitungan bangun ruang (volume & luas permukaan)
+- Validasi input
+- Tampilan GUI
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dirilis menggunakan lisensi **MIT License**.
+Silakan digunakan atau dimodifikasi untuk kebutuhan pembelajaran.
+
+---
+
+### ⭐ Jika aplikasi ini membantu, jangan lupa kasih bintang di repository GitHub!
